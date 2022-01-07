@@ -9,7 +9,7 @@ npm install
 npm run build
 ```
 
-# Deploy
+## Deploy
 
 - move `dist` to `_Bookshelf`
 - move `_snowpack` to `_snowpack`
