@@ -3,7 +3,11 @@
 </script>
 
 <figure class="book-card">
-    <img class="book-cover" src={data.cover} alt={data.title} />
+    {#if data.cover}
+        <img class="book-cover" src={data.cover} alt={data.title} />
+    {:else}
+        <img class="book-cover" src="./_img/cover.png" alt={data.title} />
+    {/if}
     <figcaption class="book-data">
         <h3 class="book-title">{data.title}</h3>
         <h4 class="book-subtitle">{data.subtitle}</h4>
@@ -11,8 +15,12 @@
         <div class="book-year">{data.year}</div>
         <div class="book-description">{data.description}</div>
         <p>
-            <a href={data.book}><img src="./img/book.png" alt="Book" /></a>
-            <a href={data.audio}><img src="./img/audio.png" alt="Audio" /></a>
+            {#if data.book}
+                <a href={data.book}><img src="./_img/book.png" alt="Book" /></a>
+            {/if}
+            {#if data.audio}
+                <a href={data.audio}><img src="./_img/audio.png" alt="Audio" /></a>
+            {/if}
         </p>
     </figcaption>
 </figure>
