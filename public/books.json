@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Bookshelf 1",
+        "description": "Description of bookshelf 1",
+        "books": [
+            {
+                "title": "Book 1A",
+                "subtitle": "Subtitle 1A",
+                "author": "Author A, Author B",
+                "year": "2001",
+                "description": "Description 1A",
+                "cover": "./book/cover.png",
+                "book": "./book/index.html",
+                "audio": "./book/audio.html"
+            },
+            {
+                "title": "Book 1B",
+                "subtitle": "Subtitle 1B",
+                "author": "Author A, Author B",
+                "year": "2002",
+                "description": "Description 1B",
+                "cover": "./book/cover.png",
+                "book": "./book/index.html",
+                "audio": "./book/audio.html"
+            }
+        ]
+    },
+    {
+        "title": "Bookshelf 2",
+        "description": "Description of bookshelf 2",
+        "books": [
+            {
+                "title": "Book 2A",
+                "subtitle": "Subtitle 2A",
+                "author": "Author A, Author B",
+                "year": "2001",
+                "description": "Description 2A",
+                "cover": "./book/cover.png",
+                "book": "./book/index.html",
+                "audio": "./book/audio.html"
+            },
+            {
+                "title": "Book 2B",
+                "subtitle": "Subtitle 2B",
+                "author": "Author A, Author B",
+                "year": "2002",
+                "description": "Description 2B",
+                "cover": "./book/cover.png",
+                "book": "./book/index.html",
+                "audio": "./book/audio.html"
+            }
+        ]
+    }
+]

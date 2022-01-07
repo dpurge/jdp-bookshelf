@@ -1,0 +1,24 @@
+{
+    "title": "Book title",
+    "subtitle": "Book subtitle",
+    "author": "Author A, Author B",
+    "year": "2001",
+    "description": "Book description",
+    "tracks": [
+        {
+            "title": "Lesson 1",
+            "src": "./audio/lesson-001.mp3",
+            "description": "Description of track 1"
+        },
+        {
+            "title": "Lesson 2",
+            "src": "./audio/lesson-002.mp3",
+            "description": "Description of track 2"
+        },
+        {
+            "title": "Lesson 3",
+            "src": "./audio/lesson-003.mp3",
+            "description": "Description of track 3"
+        }
+    ]
+}
