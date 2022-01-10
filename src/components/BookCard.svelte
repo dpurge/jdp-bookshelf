@@ -18,6 +18,9 @@
             {#if data.book}
                 <a href={data.book}><img src="./_img/book.png" alt="Book" /></a>
             {/if}
+            {#if data.pdf}
+                <a href={data.pdf}><img src="./_img/pdf.png" alt="PDF" /></a>
+            {/if}
             {#if data.audio}
                 <a href={data.audio}><img src="./_img/audio.png" alt="Audio" /></a>
             {/if}

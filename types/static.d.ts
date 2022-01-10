@@ -68,6 +68,7 @@ type BookData = {
   description: string;
   cover: string;
   book: string;
+  pdf: string;
   audio: string;
 }
 
